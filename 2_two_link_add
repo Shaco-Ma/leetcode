@@ -1,0 +1,113 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+    1,get the link long and which
+    2,sum whit bits and copy to longer link
+ */
+
+//if ==, return l1
+void get_bigger(struct ListNode *l1, struct ListNode *l2,
+                           struct ListNode **bigger, struct ListNode **less)
+{
+    struct ListNode *temp_link;
+    *bigger = l1;
+    *less = l2;
+    int l1_len = 0, l2_len = 0;
+    while(l1 != NULL || l2 != NULL)
+    {
+        if(l1 != NULL)
+        {
+            l1_len++;
+            l1 = l1->next;
+        }
+        if(l2 != NULL)
+        {
+            l2_len++;
+            l2 = l2->next;
+        }
+        if(l1_len < l2_len && ((l1==NULL&&l2!=NULL)||(l1!=NULL&&l2==NULL)))
+        {
+            temp_link = *less;
+            *less = *bigger;
+            *bigger = temp_link;
+            return;
+        }
+    }
+    /*while(l2 != NULL)
+    {
+        l2_len++;
+        l2 = l2->next;
+    }*/
+    if(l1_len < l2_len)
+    {
+        temp_link = *less;
+        *less = *bigger;
+        *bigger = temp_link;
+    }
+}
+
+/*struct ListNode* get_less(struct ListNode *l1, struct ListNode *l2)
+{
+    int l1_len = 0, l2_len = 0;
+    while(l1 != NULL)
+    {
+        l1_len++;
+        l1 = l1->next;
+    }
+    while(l2 != NULL)
+    {
+        l2_len++;
+        l2 = l2->next;
+    }
+    if(l1_len >= l2_len)
+        return l2;
+    return l1;
+}*/
+
+struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
+    struct ListNode *bigger = NULL, *less = NULL, *ret = NULL, *new = NULL;
+    struct ListNode *temp = NULL, *last = NULL;
+    //bigger = get_bigger(l1, l2, &bigger);
+    //less = get_less(l1, l2, &less);
+    get_bigger(l1, l2, &bigger, &less);
+    while(bigger != NULL)
+    {
+        if(less != NULL)
+        {
+            bigger->val += less->val;
+            less = less->next;
+        }
+        if(bigger->val >= 10)
+        {
+            bigger->val -= 10;
+            if(bigger->next != NULL)
+                bigger->next->val++;
+            else
+            {
+                new = malloc(sizeof(struct ListNode));
+                new->next = NULL;
+                new->val = 1;
+                bigger->next = new;
+            }
+        }
+        printf("new bigger->val = %d\n", bigger->val);
+        new = malloc(sizeof(struct ListNode));
+        new->next = NULL;
+        new->val = bigger->val;
+        if(ret == NULL)
+        {
+            ret = new;
+            last = ret;
+        }
+        else
+        {
+            last->next = new;
+            last = new;
+        }
+        bigger = bigger->next;
+    }
+    return ret;
+}
