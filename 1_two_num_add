@@ -1,0 +1,122 @@
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+    1,有可能为负的,所以不能只找小于这个数的,但是可以先找出所有小于target的数,在查找其他的数
+    2,可以逆向的思考一下,假如存在,target-someone Number = Array table中的值
+    3,利用哈希表?把每个数组值放进表中,以数值做key?元素给0或者1?这样只需要查找相应的哈希表就行了
+    4,哈希表大小怎么确定?用什么函数呢?%10(对10求余数),哈希冲突的话就在哈希
+ */
+int i = 0;
+int had_s0 = 0;
+int key = 0;
+typedef struct _hashmap_{
+    int key;
+    int need_number; 
+    int is_used;
+    //拉链法
+    struct _hashmap_ *next;
+}hashmap, *Phashmap;
+int* twoSum(int* nums, int numsSize, int target, int* returnSize){
+    int *return_num = (int *)malloc(sizeof(int)*numsSize);
+    memset(return_num, 0, sizeof(int)*numsSize);
+    //first, save to hash
+    Phashmap array_hash = malloc(sizeof(hashmap)*(numsSize+1));
+    memset(array_hash, 0, sizeof(hashmap)*(numsSize));
+    Phashmap temp = NULL, new = NULL;
+    had_s0 = target>0?target:0-target;
+    for(i=0;i<numsSize;++i)
+    {
+        //有可能有负数,所以(每个数开平方+i)%numsSize得到key值
+        key = ((long long int)nums[i]*(long long int)nums[i] + had_s0)%numsSize;
+        //printf("key = %d----i = %d----nums[%i] = %d\n", key, i, i, nums[i]);
+        temp = &array_hash[key];
+        if(temp->is_used == 0)
+        {
+            temp->is_used = 1;
+            temp->key = nums[i];
+            temp->need_number = i;
+            //printf("temp:%d--%d--%d\n", temp->key, temp->need_number, temp->is_used);
+        }
+        else
+        {
+            while(temp != NULL && temp->is_used == 1 && temp->next != NULL)
+            {
+                //find the last one
+                temp = temp->next;
+            }
+            new = malloc(sizeof(hashmap));
+            memset(new, 0, sizeof(hashmap));
+            new->key = nums[i];
+            new->need_number = i;
+            new->is_used = 1;
+            new->next = NULL;
+            //printf("new :%d--%d--%d\n", new->key, new->need_number, new->is_used);
+            temp->next = new;
+        }
+    }
+    
+    /*for(i=0;i<numsSize;i++)
+    {
+        temp = &array_hash[i];
+        while(temp != NULL)
+        {
+            printf("array_hash[%d]:%d---%d---%d\n", i, temp->key,
+                   temp->need_number, temp->is_used);
+            temp = temp->next;
+        }
+    }*/
+    
+    *returnSize = 0;
+    //second,find every
+    for(i=0;i<numsSize;++i)
+    {
+        //printf("nums[%d] = %d\n", i, nums[i]);
+        key = target - nums[i];
+        key = ((long long int)key*(long long int)key + had_s0)%numsSize;
+        temp = &array_hash[key];
+        //printf("%d----array_hash[%d].key = %d\n", __LINE__, key, array_hash[key].key);
+        //if not first, check next;
+        while(temp->key != (target-nums[i]) && temp->next != NULL)
+        {
+            temp = temp->next;
+        }
+        if(temp->key != (target-nums[i]))
+            continue;
+        //printf("key = %d---i = %d\n", key, i);
+        //printf("array_hash[key].key = %d---%d\n", temp->key, temp->need_number);
+        if(temp->is_used == 1)
+        {
+            //need, save the memory of malloc
+            //find this num's hash place
+            key = ((long long int)nums[i]*(long long int)nums[i] + had_s0)%numsSize;
+            if(key >= 0 && key < numsSize)
+            {
+                new = &array_hash[key];
+                //printf("%d--new->key = %d---%d\n", __LINE__, new->key, new->need_number);
+                while(new != NULL && (new->key != nums[i] || (new->next != NULL 
+                                              && new->need_number == temp->need_number)))
+                {
+                    //printf("%d---new->key = %d---%d\n", __LINE__, new->key, new->need_number);
+                    new = new->next;
+                }
+                //find this num's hash place;
+                if(new != NULL)
+                {
+                    //printf("new->key = %d---%d\n", new->key, new->need_number);
+                    //printf("temp->key = %d---%d\n", temp->key, temp->need_number);
+                    if(new->need_number == temp->need_number)
+                        continue;
+                    return_num[(*returnSize)++] = new->need_number;
+                    return_num[(*returnSize)++] = temp->need_number;
+
+                    temp->is_used = 0;
+                    new->is_used = 0;
+                }
+            }
+        }
+    }
+    /*for(i=0;i<numsSize;++i)
+    {
+        printf("return_num[i] = %d\n", return_num[i]);
+    }*/
+    return return_num;
+}
