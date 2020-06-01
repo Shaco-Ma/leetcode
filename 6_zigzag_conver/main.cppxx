@@ -1,0 +1,78 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+/*
+   用一个vector<string>存出每个竖列的字符串,没有的补0字符,然后遍历取出
+*/
+
+class Solution {
+public:
+    string convert(string s, int numRows) {
+		int ret = 0;
+		if(s.size() <= numRows || numRows == 1)
+			return s;
+		//第(n%numRows-1) == 0列是全部的,除此之外第N列都只有一个字符
+		while(cur_offset < s.size())
+		{
+			ret = cur_row % (numRows - 1);
+			//cout << "cur_row = " << cur_row << endl;
+			//cout << "ret = " << ret << endl;
+			if(ret == 0)
+			{
+				for(auto i=0;i<numRows;i++)
+				{
+					if(cur_offset < s.size())
+						new_s.push_back(s.at(cur_offset++));
+					else
+						new_s.push_back('0');
+				}
+			}
+			else
+			{
+				for(auto i=0;i<numRows;i++)
+				{
+					if((numRows - 1 - ret) == i)
+						new_s.push_back(s.at(cur_offset++));
+					else
+						new_s.push_back('0');
+				}
+			}
+			all_string.push_back(new_s);
+			new_s.clear();
+			cur_row++;
+		}
+		/*for(auto item:all_string)
+		{
+			cout << item << endl;
+		}*/
+		for(auto i=0;i<numRows;i++)
+		{
+			for(auto item:all_string)
+			{
+				if(item.at(i) != '0')
+					new_s.push_back(item.at(i));
+			}
+		}
+		
+		return new_s;
+    }
+private:
+	int cur_row = 0;
+	int cur_offset = 0;
+	vector<string> all_string;
+	string new_s;
+};
+
+int main(void)
+{
+	string s_in("hiklorxwaciwybmsfgwitrcytzmzlpvszhfnadlcfuadxmycvumqmrphqbgbsevsnbfqgtulnvrmhpoejcvxtmfjnnmgriahlfxrarenovzwkpcwsxtljaxzojhhthogonzpheevzetkvygpvbdhcaisjpbfwslmflbopgmqmfcjdkzbmckqeskpjluhditltvzkdlaptdyynzbbdlthfdzopvvudpfymhipslenqemfenhjbcrggsxxnsrtjxrveckypqofxckbrtkswdbexyblqsearxxxbiwqakvxoiafdnybszfqxibpdhrugpsizqyzcwzqgzvjovnhuuxtdalgjccpruzqkysmwrecsalhvaqsvnlynygybinufpnpnfejyinskybgzrywelutkctnkjhryujnbpwbxluklvqkpqivdcrpgkcttmkrgtekiclinfszdklscuphygzhrdampmeygkiqptacbudggraknpslwrupuubmhhkpsuhhnklqepwniwxvmpikidzdzargibxcvhjkrudvlzitwiqkxzugctlbtekdfjfcqqohnrfytpupxkzvltdnoqrjubnbkufdltkynpygfsxcfyzqreghuxqoadrmywpjscjfrhnyakdhiczbjfideaugelvekkpcmyjgfwghijqsoqtxxdacdwkjifpusgweefmmdtvlcmdqeypbdqfimqswvjqnqouwvgkybijguowyombrehasxurufjkvaeuvmguoofukuskkgmcmvehsyyodjybjcxfrdbfugbecvpnedrqyvxstxgyjf");
+	cout << s_in.size() << endl;
+	int n = 467;
+	Solution s_z_con;
+	cout << s_z_con.convert(s_in, n) << endl;
+	return EXIT_SUCCESS;
+}
+
