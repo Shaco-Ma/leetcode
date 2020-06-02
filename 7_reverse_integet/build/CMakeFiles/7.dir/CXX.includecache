@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shaco/S_data/test/leetcode/7_reverse_integet/main.cpp
+iostream
+-
+string
+-
+algorithm
+-
+cmath
+-
+limits.h
+-
+
