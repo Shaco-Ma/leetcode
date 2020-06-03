@@ -20,7 +20,7 @@ public:
 			ret = max(ret, min(height[l],height[r])*(r-l));
 			(height[l] > height[r])?(r-=1):(l+=1);
 			cout << "ret = " << ret << endl;
-			cout << "l = " << l << " r = " << r << endl;
+			cout << "height[" << l << "] = " << height[l] << " height[" << r << "] = " << height[r] << endl;
 		}
 
 		return ret;
