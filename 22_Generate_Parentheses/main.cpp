@@ -10,6 +10,7 @@
 #include <vector>
 #include <list>
 #include <stack>
+#include <random>
 
 using namespace std;
 
@@ -26,35 +27,52 @@ using namespace std;
 	 有效的,有一个左的,要有一个右的,这俩中间可以有无数个有效的
 	 //( 代表1,)代表 -1?
 	 从左往右的过程中,总值必须大于等于0,如果小于,就返回上一层?
+	 //看了答案才知道怎么处理:大致的思路是对的,但是对于用sum的话不方便计算有多少个括号
 */
 
 class Solution {
 public:
-	map<char, int> parnum = {{'(', 1}, {')', -1}};
-	stack<char> lpar;
-	stack<char> rpar;
-	vector<string> out;
-	int sum;
-	bool flag;
-	vector<string> backtest(int n)
+	void backtest(vector<string> &in, string &s, int n, int l, int r)
 	{
-		return out;
+		if(s.size() == n*2)
+		{
+			in.push_back(s);
+			return;
+		}
+		else
+		{
+			if(l < n)
+			{
+				s.push_back('(');
+				backtest(in, s, n, l+1, r);
+				s.pop_back();
+			}
+			if(r < l)
+			{
+				s.push_back(')');
+				backtest(in, s, n, l, r+1);
+				s.pop_back();
+			}
+		}
 	}
     vector<string> generateParenthesis(int n) {
-		lpar.push('(');
-		lpar.push('(');
-		lpar.push('(');
-		rpar.push(')');
-		rpar.push(')');
-		rpar.push(')');
+		vector<string> out;
+		string temp;
+		int l = 0 ,r = 0;
+		backtest(out, temp, n, l, r);
 
-		return backtest(n);
+		return out;
     }
 };
 
 int main(void)
 {
 	Solution f;
+	vector<string> out = f.generateParenthesis(3);
+	for(auto item:out)
+	{
+		cout << item << endl;
+	}
 	return EXIT_SUCCESS;
 }
 
