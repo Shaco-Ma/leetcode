@@ -16,7 +16,7 @@ using namespace std;
 class Solution {
 public:
     string intToRoman(int num) {
-		const vector<string> thousand = {"", "M", "MM", "MMM", "IM", "M", "MI", "MII", "MIII", "MIIII"};
+		const vector<string> thousand = {"", "M", "MM", "MMM"};
 		const vector<string> hundred  = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
 		const vector<string> ten      = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
 		const vector<string> unit     = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
