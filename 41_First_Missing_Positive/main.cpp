@@ -22,35 +22,33 @@
 1 <= nums.length <= 5 * 105
 -231 <= nums[i] <= 231 - 1
 思路：
-	看了答案,再哈希,哈希表,定义一个数,从1开始,定义一个vector,长度为nums长度,全部格式化为0
-	从数组内取数,当>0的时候,查找数组对应的下标是不是0,是的话将这个数置1,如果下标值=target,那么从但前下标往后找到第一个为0的数
-	此下标为最终的所需的值
+	只有置换能看懂,把下标作为正确的位置,进行置换
+	只有属于这个数组大小的才进行置换,小于1和负数,大于数组的值不置换
+	比如下标为i的数值x,那么x应该在下标为x-1的位置,如果x==下标为x-1的值,就跳过
+	置换结束,只需要看哪一个下标的数不等于i+1,就返回i+1
 */
 
 using namespace std;
 
 class Solution {
-	private:
-		int result = 1;
-		vector<int> target;
-		vector<int>::iterator cur;
 	public:
 		int firstMissingPositive(vector<int>& nums) {
-			target.resize(nums.size(), 0);
-			cur = target.begin();
-			for(int i=0;i<nums.size();i++)
+			int n = nums.size();
+			for(int i=0;i<n;i++)
 			{
-				target.at(nums.at(i)) = 1;
-				if(i == result)
+				while(nums[i] > 0 && nums[i] <= n && nums[i] != nums[nums[i] - 1])
 				{
-					//找到第一个不为0的数
-					auto item = find(cur, target.end(), 0);
-					cur = item;
-					result = cur - target.begin();
-					cout << result << endl;
+					swap(nums[nums[i] - 1], nums[i]);
 				}
 			}
-			return result;
+			for(int i=0;i<n;i++)
+			{
+				if(nums[i] != i+1)
+				{
+					return i+1;
+				}
+			}
+			return n+1;
 		}
 };
 
