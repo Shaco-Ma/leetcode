@@ -15,7 +15,6 @@ using namespace std;
 输入：head = [1,1,1,2,3]
 输出：[2,3]
 
-//放弃,就记住一个哑节点
 */
 
 struct ListNode {
@@ -30,25 +29,21 @@ class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head)
 	{
-		ListNode *new_head = new ListNode(0, head);
-		ListNode *cur = new_head;
-		while(cur->next && cur->next->next)
+		if(head == nullptr)
+			return head;
+		ListNode *cur = head;
+		while(cur->next)
 		{
-			if(cur->next->val == cur->next->next->val)
+			if(cur->val == cur->next->val)
 			{
-				//找到第一个不同的
-				int same = cur->next->val;
-				while(cur->next && same == cur->next->val)
-				{
-					cur->next = cur->next->next;
-				}
+				cur->next = cur->next->next;
 			}
 			else
 			{
 				cur = cur->next;
 			}
 		}
-		return new_head->next;
+		return head;
     }
 };
 
@@ -56,9 +51,10 @@ int main(void)
 {
 	Solution s;
 	ListNode *back = nullptr;
-	ListNode *a2 = new ListNode(1);
+	ListNode *a2 = new ListNode(2);
 	ListNode *b2 = new ListNode(1, a2);
-	back = b2;
+	ListNode *b3 = new ListNode(1, b2);
+	back = b3;
 	cout << "old: ";
 	while(back != nullptr)
 	{
@@ -74,12 +70,10 @@ int main(void)
 		back = back->next;
 	}
 	cout << endl;
-	ListNode *a = new ListNode(5);
-	ListNode *b = new ListNode(4, a);
-	ListNode *c = new ListNode(4, b);
+	ListNode *c = new ListNode(3);
 	ListNode *d = new ListNode(3, c);
-	ListNode *e = new ListNode(3, d);
-	ListNode *f = new ListNode(2, e);
+	ListNode *e = new ListNode(2, d);
+	ListNode *f = new ListNode(1, e);
 	ListNode *g = new ListNode(1, f);
 	back = g;
 	cout << "old: ";
@@ -97,6 +91,7 @@ int main(void)
 		back = back->next;
 	}
 	cout << endl;
+	return 1;
 	ListNode *a1 = new ListNode(3);
 	ListNode *b1 = new ListNode(2, a1);
 	ListNode *c1 = new ListNode(1, b1);

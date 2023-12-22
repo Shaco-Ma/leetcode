@@ -37,27 +37,6 @@ flags = [
     '-x',
     'c++',
     '-std=gnu++11',
-
-    '-isystem',
-    '/usr/include',
-    '-isystem',
-    '/usr/local/include',
-    '-isystem',
-    '/usr/include/c++/8',
-    '-isystem',
-    '/usr/include/c++/9',
-    '-isystem',
-    '/usr/include/x86_64-linux-gnu/c++/8',
-    '-isystem',
-    '/usr/include/x86_64-linux-gnu/c++/9',
-    '-isystem',
-    '/usr/lib/gcc/x86_64-linux-gnu/7',
-    '-isystem',
-    '/usr/lib/gcc/x86_64-linux-gnu/7.5.0',
-    '-isystem',
-    '/usr/lib/gcc/x86_64-linux-gnu/9',
-    '-isystem',
-    '/usr/lib/gcc/x86_64-linux-gnu/8',
 ]
 
 

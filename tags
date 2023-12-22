@@ -1,0 +1,311 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AAA	23_Merge_k_Sorted_Lists/main.cpp	/^	AAA,$/;"	e	enum:__anon1	file:
+AAAA	23_Merge_k_Sorted_Lists/main.cpp	/^	AAAA,$/;"	e	enum:__anon1	file:
+AAAAA	23_Merge_k_Sorted_Lists/main.cpp	/^	AAAAA,$/;"	e	enum:__anon1	file:
+AAAAAA	23_Merge_k_Sorted_Lists/main.cpp	/^	AAAAAA,$/;"	e	enum:__anon1	file:
+AAAAAAA	23_Merge_k_Sorted_Lists/main.cpp	/^	AAAAAAA,$/;"	e	enum:__anon1	file:
+DirectoryOfThisScript	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	f
+FlagsForFile	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^def FlagsForFile( filename, **kwargs ):$/;"	f
+GetCompilationInfoForFile	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^def GetCompilationInfoForFile( filename ):$/;"	f
+IsHeaderFile	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	f
+ListNode	19_remove_Nth_node_from_end_of_list/main.cpp	/^	ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode
+ListNode	19_remove_Nth_node_from_end_of_list/main.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	21_Merge_Two_Sorted_Lists/main.cpp	/^	ListNode() : val(0), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	21_Merge_Two_Sorted_Lists/main.cpp	/^	ListNode(int x) : val(x), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	21_Merge_Two_Sorted_Lists/main.cpp	/^	ListNode(int x, ListNode *next) : val(x), next(next) {}$/;"	f	struct:ListNode
+ListNode	21_Merge_Two_Sorted_Lists/main.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	23_Merge_k_Sorted_Lists/main.cpp	/^	ListNode():val(0), next(nullptr){}$/;"	f	class:ListNode
+ListNode	23_Merge_k_Sorted_Lists/main.cpp	/^	ListNode():val(0), next(nullptr){}$/;"	f	struct:ListNode
+ListNode	23_Merge_k_Sorted_Lists/main.cpp	/^	ListNode(int x) : val(x), next(nullptr) {}$/;"	f	class:ListNode
+ListNode	23_Merge_k_Sorted_Lists/main.cpp	/^	ListNode(int x) : val(x), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	23_Merge_k_Sorted_Lists/main.cpp	/^	ListNode(int x, ListNode *next) : val(x), next(next) {}$/;"	f	class:ListNode
+ListNode	23_Merge_k_Sorted_Lists/main.cpp	/^	ListNode(int x, ListNode *next) : val(x), next(next) {}$/;"	f	struct:ListNode
+ListNode	23_Merge_k_Sorted_Lists/main.cpp	/^class ListNode{$/;"	c	file:
+ListNode	23_Merge_k_Sorted_Lists/main.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	25_Reverse_Nodes_in_k_Group/main.cpp	/^    ListNode() : val(0), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	25_Reverse_Nodes_in_k_Group/main.cpp	/^    ListNode(int x) : val(x), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	25_Reverse_Nodes_in_k_Group/main.cpp	/^    ListNode(int x, ListNode *next) : val(x), next(next) {}$/;"	f	struct:ListNode
+ListNode	25_Reverse_Nodes_in_k_Group/main.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	61_Rotate_List/main.cpp	/^    ListNode() : val(0), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	61_Rotate_List/main.cpp	/^    ListNode(int x) : val(x), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	61_Rotate_List/main.cpp	/^    ListNode(int x, ListNode *next) : val(x), next(next) {}$/;"	f	struct:ListNode
+ListNode	61_Rotate_List/main.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	82_Remove_Duplicates_from_Sorted_List_II/main.cpp	/^    ListNode() : val(0), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	82_Remove_Duplicates_from_Sorted_List_II/main.cpp	/^    ListNode(int x) : val(x), next(nullptr) {}$/;"	f	struct:ListNode
+ListNode	82_Remove_Duplicates_from_Sorted_List_II/main.cpp	/^    ListNode(int x, ListNode *next) : val(x), next(next) {}$/;"	f	struct:ListNode
+ListNode	82_Remove_Duplicates_from_Sorted_List_II/main.cpp	/^struct ListNode {$/;"	s	file:
+Longest	5_longest_palindromic_substring/5_longest_palindromic_substring.cpp	/^string Solution::Longest(string s) {$/;"	f	class:Solution
+MakeRelativePathsInFlagsAbsolute	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	f
+SOURCE_EXTENSIONS	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.C', '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]$/;"	v
+Settings	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^def Settings( **kwargs ):$/;"	f
+Solution	11_container_with_most_water/main.cpp	/^class Solution {$/;"	c	file:
+Solution	12_integer_to_roman/main.cpp	/^class Solution {$/;"	c	file:
+Solution	13_roman_to_integer/main.cpp	/^class Solution {$/;"	c	file:
+Solution	14_longest_common_prefix/main.cpp	/^class Solution {$/;"	c	file:
+Solution	15_3sum/main.cpp	/^class Solution {$/;"	c	file:
+Solution	16_3num_closest/main.cpp	/^class Solution {$/;"	c	file:
+Solution	17_letter_combinations_of_a_phone_number/main.cpp	/^class Solution {$/;"	c	file:
+Solution	18_4sum/main.cpp	/^class Solution {$/;"	c	file:
+Solution	19_remove_Nth_node_from_end_of_list/main.cpp	/^class Solution {$/;"	c	file:
+Solution	1_tow_num_add/main.cpp	/^class Solution {$/;"	c	file:
+Solution	20_Valid_parentheses/main.cpp	/^class Solution {$/;"	c	file:
+Solution	21_Merge_Two_Sorted_Lists/main.cpp	/^class Solution {$/;"	c	file:
+Solution	22_Generate_Parentheses/main.cpp	/^class Solution {$/;"	c	file:
+Solution	23_Merge_k_Sorted_Lists/main.cpp	/^class Solution {$/;"	c	file:
+Solution	25_Reverse_Nodes_in_k_Group/main.cpp	/^class Solution {$/;"	c	file:
+Solution	26_Remove_Duplicates_from_Sorted_Array/main.cpp	/^class Solution {$/;"	c	file:
+Solution	27_Remove_Element/main.cpp	/^class Solution {$/;"	c	file:
+Solution	28_Implement_strStr/main.cpp	/^class Solution {$/;"	c	file:
+Solution	29_Divide_Two_Integers/main.cpp	/^class Solution {$/;"	c	file:
+Solution	31_Next_Permutation/main.cpp	/^class Solution {$/;"	c	file:
+Solution	322_coin_change/main.cpp	/^class Solution {$/;"	c	file:
+Solution	34_Find_First_and_Last_Position_of_Element_in_Sorted_Array/main.cpp	/^class Solution {$/;"	c	file:
+Solution	35_Search_Insert_Position/main.cpp	/^class Solution {$/;"	c	file:
+Solution	36_Valid_Sudoku/main.cpp	/^class Solution {$/;"	c	file:
+Solution	37_Sudoku_Solver/main.cpp	/^class Solution {$/;"	c	file:
+Solution	38_Count_and_Say/main.cpp	/^class Solution {$/;"	c	file:
+Solution	39_Combination_Sum/main.cpp	/^class Solution {$/;"	c	file:
+Solution	3_Longest_Substring_without_Repeating_Characters/main.cpp	/^class Solution {$/;"	c	file:
+Solution	40_Combination_Sum_II/main.cpp	/^class Solution {$/;"	c	file:
+Solution	41_First_Missing_Positive/main.cpp	/^class Solution {$/;"	c	file:
+Solution	43_Multiply_Strings/main.cpp	/^class Solution$/;"	c	file:
+Solution	46_Permutations/main.cpp	/^class Solution {$/;"	c	file:
+Solution	49_Group_Anagrams/main.cpp	/^class Solution {$/;"	c	file:
+Solution	4_long_no_repeat_char/main.cpp	/^class Solution {$/;"	c	file:
+Solution	50_Pow/main.cpp	/^class Solution {$/;"	c	file:
+Solution	53_Maximum_Subarray/main.cpp	/^class Solution {$/;"	c	file:
+Solution	55_Jump_Game/main.cpp	/^class Solution$/;"	c	file:
+Solution	56_Merge_Intervals/main.cpp	/^class Solution {$/;"	c	file:
+Solution	57_Insert_Interval/main.cpp	/^class Solution {$/;"	c	file:
+Solution	58_Length_of_Last_Word/main.cpp	/^class Solution$/;"	c	file:
+Solution	5_longest_palindromic_substring/5_longest_palindromic_substring.cpp	/^class Solution {$/;"	c	file:
+Solution	61_Rotate_List/main.cpp	/^class Solution$/;"	c	file:
+Solution	62_Unique_Paths/main.cpp	/^class Solution$/;"	c	file:
+Solution	63_Unique_Paths_II/main.cpp	/^class Solution$/;"	c	file:
+Solution	64_Minimum_Path_Sum/main.cpp	/^class Solution$/;"	c	file:
+Solution	65_Valid_Number/main.cpp	/^class Solution$/;"	c	file:
+Solution	66_Plus_One/main.cpp	/^class Solution$/;"	c	file:
+Solution	67_Add_Binary/main.cpp	/^class Solution$/;"	c	file:
+Solution	69_Sqrt/main.cpp	/^class Solution {$/;"	c	file:
+Solution	6_zigzag_conver/main.cpp	/^class Solution {$/;"	c	file:
+Solution	70_Climbing_Stairs/main.cpp	/^class Solution {$/;"	c	file:
+Solution	71_Simplify_Path/main.cpp	/^class Solution {$/;"	c	file:
+Solution	73_Set_Matrix_Zeroes/main.cpp	/^class Solution {$/;"	c	file:
+Solution	74_Search_a_2D_Matrix/main.cpp	/^class Solution {$/;"	c	file:
+Solution	75_Sort_Colors/main.cpp	/^class Solution {$/;"	c	file:
+Solution	77_Combinations/main.cpp	/^class Solution {$/;"	c	file:
+Solution	78_Subsets/main.cpp	/^class Solution {$/;"	c	file:
+Solution	79_Word_Search/main.cpp	/^class Solution {$/;"	c	file:
+Solution	7_reverse_integet/main.cpp	/^class Solution {$/;"	c	file:
+Solution	80_Remove_Duplicates_from_Sorted_Array_II/main.cpp	/^class Solution {$/;"	c	file:
+Solution	81_Search_in_Rotated_Sorted_Array_II/main.cpp	/^class Solution {$/;"	c	file:
+Solution	82_Remove_Duplicates_from_Sorted_List_II/main.cpp	/^class Solution {$/;"	c	file:
+Solution	8_atoi/main.cpp	/^class Solution {$/;"	c	file:
+Solution	9_palindrome_number/main.cpp	/^class Solution {$/;"	c	file:
+Status	23_Merge_k_Sorted_Lists/main.cpp	/^	struct Status {$/;"	s	class:Solution	file:
+TEST_NUME	23_Merge_k_Sorted_Lists/main.cpp	/^}TEST_NUME;$/;"	t	typeref:enum:__anon1	file:
+addBinary	67_Add_Binary/main.cpp	/^    string addBinary(string a, string b)$/;"	f	class:Solution
+backtest	22_Generate_Parentheses/main.cpp	/^	void backtest(vector<string> &in, string &s, int n, int l, int r)$/;"	f	class:Solution
+backtrack	17_letter_combinations_of_a_phone_number/main.cpp	/^	void backtrack(string in, string next)$/;"	f	class:Solution	file:
+backtracking	46_Permutations/main.cpp	/^	void backtracking(vector<int>& nums, vector<int> &path, vector<int> &isIn)$/;"	f	class:Solution
+canJump	55_Jump_Game/main.cpp	/^		bool canJump(vector<int>& nums)$/;"	f	class:Solution
+climbStairs	70_Climbing_Stairs/main.cpp	/^    int climbStairs(int n)$/;"	f	class:Solution
+coinChange	322_coin_change/main.cpp	/^    int coinChange(vector<int>& coins, int amount)$/;"	f	class:Solution
+combinationSum	39_Combination_Sum/main.cpp	/^		vector<vector<int>> combinationSum(vector<int>& candidates, int target)$/;"	f	class:Solution
+combinationSum2	40_Combination_Sum_II/main.cpp	/^		vector<vector<int>> combinationSum2(vector<int>& candidates, int target)$/;"	f	class:Solution
+combine	77_Combinations/main.cpp	/^    vector<vector<int>> combine(int n, int k)$/;"	f	class:Solution
+compare_lists	23_Merge_k_Sorted_Lists/main.cpp	/^	static bool compare_lists(ListNode *l, ListNode *r)$/;"	f	class:Solution
+compilation_database_folder	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	v
+convert	6_zigzag_conver/main.cpp	/^    string convert(string s, int numRows) {$/;"	f	class:Solution
+countAndSay	38_Count_and_Say/main.cpp	/^    string countAndSay(int n) {$/;"	f	class:Solution
+cur	3_Longest_Substring_without_Repeating_Characters/main.cpp	/^	int cur = 0;$/;"	m	class:Solution	file:
+database	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^  database = None$/;"	v
+database	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	v
+deleteDuplicates	82_Remove_Duplicates_from_Sorted_List_II/main.cpp	/^    ListNode* deleteDuplicates(ListNode* head)$/;"	f	class:Solution
+dfs	39_Combination_Sum/main.cpp	/^		void dfs(vector<int> &candidates, int target, int sum, int idx)$/;"	f	class:Solution	file:
+dfs	40_Combination_Sum_II/main.cpp	/^		void dfs(vector<int> &candidates, int target, int sum, int idx)$/;"	f	class:Solution	file:
+dfs	77_Combinations/main.cpp	/^	void dfs(int n, int first, int k, vector<int> &temp)$/;"	f	class:Solution
+dfs	78_Subsets/main.cpp	/^	void dfs(vector<int>& nums, int cur)$/;"	f	class:Solution
+divide	29_Divide_Two_Integers/main.cpp	/^    int divide(int dividend, int divisor) {$/;"	f	class:Solution
+exist	79_Word_Search/main.cpp	/^    bool exist(vector<vector<char>>& board, string word)$/;"	f	class:Solution
+find_word	79_Word_Search/main.cpp	/^	int find_word(int i, int j, int m, int n, vector<vector<char>> &board, string &word, int s_cur, vector<vector<int>> &had_use)$/;"	f	class:Solution
+firstMissingPositive	41_First_Missing_Positive/main.cpp	/^		int firstMissingPositive(vector<int>& nums) {$/;"	f	class:Solution
+flags	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^flags = [$/;"	v
+fourSum	18_4sum/main.cpp	/^	vector<vector<int>> fourSum(vector<int>& nums, int target) {$/;"	f	class:Solution
+generateParenthesis	22_Generate_Parentheses/main.cpp	/^    vector<string> generateParenthesis(int n) {$/;"	f	class:Solution
+get	56_Merge_Intervals/main.cpp	/^	void get(int first, int size, int check_num, vector<vector<int>>& intervals)$/;"	f	class:Solution
+get	69_Sqrt/main.cpp	/^	int get(long long l, long long r, int target)$/;"	f	class:Solution
+get_array	5_longest_palindromic_substring/5_longest_palindromic_substring.cpp	/^  int *get_array = nullptr;$/;"	m	class:Solution	file:
+get_index	34_Find_First_and_Last_Position_of_Element_in_Sorted_Array/main.cpp	/^	int get_index(vector<int>& nums, int target, bool left)$/;"	f	class:Solution
+get_string	13_roman_to_integer/main.cpp	/^	pair<int, int> get_string(string in, int start_num, set<char> s_in, int s_len)$/;"	f	class:Solution
+get_string_array	5_longest_palindromic_substring/5_longest_palindromic_substring.cpp	/^int Solution::get_string_array(int array_in[], const string &base_s,$/;"	f	class:Solution
+groupAnagrams	49_Group_Anagrams/main.cpp	/^    vector<vector<string>> groupAnagrams(vector<string>& strs)$/;"	f	class:Solution
+insert	57_Insert_Interval/main.cpp	/^	vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval)$/;"	f	class:Solution
+intToRoman	12_integer_to_roman/main.cpp	/^    string intToRoman(int num) {$/;"	f	class:Solution
+isNumber	65_Valid_Number/main.cpp	/^    bool isNumber(string s)$/;"	f	class:Solution
+isPalindrome	9_palindrome_number/main.cpp	/^    bool isPalindrome(int x) {$/;"	f	class:Solution
+isValid	20_Valid_parentheses/main.cpp	/^    bool isValid(string s) {$/;"	f	class:Solution
+isValidSudoku	36_Valid_Sudoku/main.cpp	/^    bool isValidSudoku(vector<vector<char>>& board) {$/;"	f	class:Solution
+isValidSudoku	37_Sudoku_Solver/main.cpp	/^    bool isValidSudoku(vector<vector<char>>& board) {$/;"	f	class:Solution
+len	26_Remove_Duplicates_from_Sorted_Array/main.cpp	/^	int len = 0;$/;"	m	class:Solution	file:
+lengthOfLastWord	58_Length_of_Last_Word/main.cpp	/^    int lengthOfLastWord(string s)$/;"	f	class:Solution
+lengthOfLongestSubstring	3_Longest_Substring_without_Repeating_Characters/main.cpp	/^    int lengthOfLongestSubstring(string s) {$/;"	f	class:Solution
+lengthOfLongestSubstring	4_long_no_repeat_char/main.cpp	/^    int lengthOfLongestSubstring(string s) {$/;"	f	class:Solution
+letterCombinations	17_letter_combinations_of_a_phone_number/main.cpp	/^    vector<string> letterCombinations(string digits) {$/;"	f	class:Solution
+longestCommonPrefix	14_longest_common_prefix/main.cpp	/^    string longestCommonPrefix(vector<string>& strs) {$/;"	f	class:Solution
+main	11_container_with_most_water/main.cpp	/^int main(void)$/;"	f
+main	12_integer_to_roman/main.cpp	/^int main(int argv, char * argc[])$/;"	f
+main	13_roman_to_integer/main.cpp	/^int main(int argv, char * argc[])$/;"	f
+main	14_longest_common_prefix/main.cpp	/^int main(void)$/;"	f
+main	15_3sum/main.cpp	/^int main(void)$/;"	f
+main	16_3num_closest/main.cpp	/^int main(void)$/;"	f
+main	17_letter_combinations_of_a_phone_number/main.cpp	/^int main(void)$/;"	f
+main	18_4sum/main.cpp	/^int main(void)$/;"	f
+main	19_remove_Nth_node_from_end_of_list/main.cpp	/^int main(void)$/;"	f
+main	1_tow_num_add/main.cpp	/^int main(void)$/;"	f
+main	20_Valid_parentheses/main.cpp	/^int main(void)$/;"	f
+main	21_Merge_Two_Sorted_Lists/main.cpp	/^int main(void)$/;"	f
+main	22_Generate_Parentheses/main.cpp	/^int main(void)$/;"	f
+main	23_Merge_k_Sorted_Lists/main.cpp	/^int main(void)$/;"	f
+main	25_Reverse_Nodes_in_k_Group/main.cpp	/^int main(int argv, char *argc[])$/;"	f
+main	26_Remove_Duplicates_from_Sorted_Array/main.cpp	/^int main(void)$/;"	f
+main	27_Remove_Element/main.cpp	/^int main(void)$/;"	f
+main	28_Implement_strStr/main.cpp	/^int main(void)$/;"	f
+main	29_Divide_Two_Integers/main.cpp	/^int main(void)$/;"	f
+main	31_Next_Permutation/main.cpp	/^int main(void)$/;"	f
+main	34_Find_First_and_Last_Position_of_Element_in_Sorted_Array/main.cpp	/^int main(void)$/;"	f
+main	35_Search_Insert_Position/main.cpp	/^int main(void)$/;"	f
+main	36_Valid_Sudoku/main.cpp	/^int main(void)$/;"	f
+main	37_Sudoku_Solver/main.cpp	/^int main(void)$/;"	f
+main	38_Count_and_Say/main.cpp	/^int main(void)$/;"	f
+main	3_Longest_Substring_without_Repeating_Characters/main.cpp	/^int main(void)$/;"	f
+main	40_Combination_Sum_II/main.cpp	/^int main(void)$/;"	f
+main	41_First_Missing_Positive/main.cpp	/^int main(void)$/;"	f
+main	43_Multiply_Strings/main.cpp	/^int main(void)$/;"	f
+main	46_Permutations/main.cpp	/^int main(void)$/;"	f
+main	49_Group_Anagrams/main.cpp	/^int main(void)$/;"	f
+main	4_long_no_repeat_char/main.cpp	/^int main(void)$/;"	f
+main	50_Pow/main.cpp	/^int main(void)$/;"	f
+main	53_Maximum_Subarray/main.cpp	/^int main(void)$/;"	f
+main	55_Jump_Game/main.cpp	/^int main(void)$/;"	f
+main	56_Merge_Intervals/main.cpp	/^int main(void)$/;"	f
+main	57_Insert_Interval/main.cpp	/^int main(void)$/;"	f
+main	58_Length_of_Last_Word/main.cpp	/^int main(void)$/;"	f
+main	5_longest_palindromic_substring/5_longest_palindromic_substring.cpp	/^int main(void) {$/;"	f
+main	61_Rotate_List/main.cpp	/^int main(void)$/;"	f
+main	62_Unique_Paths/main.cpp	/^int main(void)$/;"	f
+main	63_Unique_Paths_II/main.cpp	/^int main(void)$/;"	f
+main	64_Minimum_Path_Sum/main.cpp	/^int main(void)$/;"	f
+main	65_Valid_Number/main.cpp	/^int main(void)$/;"	f
+main	66_Plus_One/main.cpp	/^int main(void)$/;"	f
+main	67_Add_Binary/main.cpp	/^int main(void)$/;"	f
+main	69_Sqrt/main.cpp	/^int main(void)$/;"	f
+main	6_zigzag_conver/main.cpp	/^int main(void)$/;"	f
+main	70_Climbing_Stairs/main.cpp	/^int main(void)$/;"	f
+main	71_Simplify_Path/main.cpp	/^int main(void)$/;"	f
+main	73_Set_Matrix_Zeroes/main.cpp	/^int main(void)$/;"	f
+main	74_Search_a_2D_Matrix/main.cpp	/^int main(void)$/;"	f
+main	75_Sort_Colors/main.cpp	/^int main(void)$/;"	f
+main	77_Combinations/main.cpp	/^int main(void)$/;"	f
+main	78_Subsets/main.cpp	/^int main(void)$/;"	f
+main	79_Word_Search/main.cpp	/^int main(void)$/;"	f
+main	7_reverse_integet/main.cpp	/^int main(void)$/;"	f
+main	80_Remove_Duplicates_from_Sorted_Array_II/main.cpp	/^int main(void)$/;"	f
+main	81_Search_in_Rotated_Sorted_Array_II/main.cpp	/^int main(void)$/;"	f
+main	82_Remove_Duplicates_from_Sorted_List_II/main.cpp	/^int main(void)$/;"	f
+main	8_atoi/main.cpp	/^int main(void)$/;"	f
+main	9_palindrome_number/main.cpp	/^int main(void)$/;"	f
+main	main.cpp	/^int main(void)$/;"	f
+maxArea	11_container_with_most_water/main.cpp	/^    int maxArea(vector<int>& height) {$/;"	f	class:Solution
+maxSubArray	53_Maximum_Subarray/main.cpp	/^    int maxSubArray(vector<int>& nums)$/;"	f	class:Solution
+merge	56_Merge_Intervals/main.cpp	/^    vector<vector<int>> merge(vector<vector<int>>& intervals)$/;"	f	class:Solution
+mergeKLists	23_Merge_k_Sorted_Lists/main.cpp	/^    ListNode* mergeKLists(vector<ListNode*>& lists) {$/;"	f	class:Solution
+mergeTwoLists	21_Merge_Two_Sorted_Lists/main.cpp	/^    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {$/;"	f	class:Solution
+minPathSum	64_Minimum_Path_Sum/main.cpp	/^    int minPathSum(vector<vector<int>>& grid)$/;"	f	class:Solution
+multiply	43_Multiply_Strings/main.cpp	/^		string multiply(string num1, string num2)$/;"	f	class:Solution
+myAtoi	8_atoi/main.cpp	/^    int myAtoi(string str) {$/;"	f	class:Solution
+myPow	50_Pow/main.cpp	/^    double myPow(double x, long long n)$/;"	f	class:Solution
+mySqrt	69_Sqrt/main.cpp	/^    int mySqrt(int x)$/;"	f	class:Solution
+new_s	3_Longest_Substring_without_Repeating_Characters/main.cpp	/^	unordered_set<char> new_s;$/;"	m	class:Solution	file:
+new_s	6_zigzag_conver/main.cpp	/^	string new_s;$/;"	m	class:Solution	file:
+next	19_remove_Nth_node_from_end_of_list/main.cpp	/^	ListNode *next;$/;"	m	struct:ListNode	file:
+next	21_Merge_Two_Sorted_Lists/main.cpp	/^	ListNode *next;$/;"	m	struct:ListNode	file:
+next	23_Merge_k_Sorted_Lists/main.cpp	/^	ListNode *next;$/;"	m	class:ListNode	file:
+next	23_Merge_k_Sorted_Lists/main.cpp	/^	ListNode *next;$/;"	m	struct:ListNode	file:
+next	25_Reverse_Nodes_in_k_Group/main.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:
+next	61_Rotate_List/main.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:
+next	82_Remove_Duplicates_from_Sorted_List_II/main.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:
+nextPermutation	31_Next_Permutation/main.cpp	/^    void nextPermutation(vector<int>& nums) {$/;"	f	class:Solution
+num_to_char	17_letter_combinations_of_a_phone_number/main.cpp	/^	const map<char, string> num_to_char = {{'2', "abc"}, {'3', "def"}, {'4', "ghi"}, {'5', "jkl"}, {'6', "mno"}, {'7', "pqrs"}, {'8', "tuv"}, {'9', "wxyz"}};$/;"	m	class:Solution	file:
+operator <	23_Merge_k_Sorted_Lists/main.cpp	/^	bool operator < (const ListNode &rhs) const {$/;"	f	class:ListNode
+operator <	23_Merge_k_Sorted_Lists/main.cpp	/^	bool operator < (const ListNode &rhs) const {$/;"	f	struct:ListNode
+operator <	23_Merge_k_Sorted_Lists/main.cpp	/^	friend bool operator < (const ListNode & lhs, const ListNode &rhs) {$/;"	f	class:ListNode
+operator <	23_Merge_k_Sorted_Lists/main.cpp	/^        bool operator < (const Status &rhs) const {$/;"	f	struct:Solution::Status
+os	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^import os$/;"	i
+out	40_Combination_Sum_II/main.cpp	/^		vector<vector<int>> out;$/;"	m	class:Solution	file:
+parenthesis	20_Valid_parentheses/main.cpp	/^	map<char, char> parenthesis = {{')', '('}, {']', '['}, {'}', '{'}};$/;"	m	class:Solution	file:
+path	39_Combination_Sum/main.cpp	/^		vector<int> path;$/;"	m	class:Solution	file:
+path	40_Combination_Sum_II/main.cpp	/^		vector<int> path;$/;"	m	class:Solution	file:
+path	46_Permutations/main.cpp	/^	vector<int> path;$/;"	m	class:Solution	file:
+permute	46_Permutations/main.cpp	/^    vector<vector<int>> permute(vector<int>& nums)$/;"	f	class:Solution
+plusOne	66_Plus_One/main.cpp	/^    vector<int> plusOne(vector<int>& digits)$/;"	f	class:Solution
+pow	50_Pow/main.cpp	/^	double pow(double x, long long n)$/;"	f	class:Solution
+ptr	23_Merge_k_Sorted_Lists/main.cpp	/^        ListNode *ptr;$/;"	m	struct:Solution::Status	file:
+q	23_Merge_k_Sorted_Lists/main.cpp	/^	multiset<ListNode *> q;$/;"	m	class:Solution	file:
+q	23_Merge_k_Sorted_Lists/main.cpp	/^    priority_queue <Status> q;$/;"	m	class:Solution	file:
+readDir	clear_and_git_push.sh	/^function readDir()$/;"	f
+removeDuplicates	26_Remove_Duplicates_from_Sorted_Array/main.cpp	/^    int removeDuplicates(vector<int>& nums) {$/;"	f	class:Solution
+removeDuplicates	80_Remove_Duplicates_from_Sorted_Array_II/main.cpp	/^    int removeDuplicates(vector<int>& nums)$/;"	f	class:Solution
+removeElement	27_Remove_Element/main.cpp	/^    int removeElement(vector<int>& nums, int val) {$/;"	f	class:Solution
+removeNthFromEnd	19_remove_Nth_node_from_end_of_list/main.cpp	/^    ListNode* removeNthFromEnd(ListNode* head, int n) {$/;"	f	class:Solution
+result	1_tow_num_add/main.cpp	/^	vector<int> result;$/;"	m	class:Solution	file:
+result	39_Combination_Sum/main.cpp	/^		vector<vector<int>> result;$/;"	m	class:Solution	file:
+result	40_Combination_Sum_II/main.cpp	/^		set<vector<int>> result;$/;"	m	class:Solution	file:
+result	46_Permutations/main.cpp	/^	vector<vector<int>> result;$/;"	m	class:Solution	file:
+result	50_Pow/main.cpp	/^	double result = 1;$/;"	m	class:Solution	file:
+result	56_Merge_Intervals/main.cpp	/^	vector<vector<int>> result;$/;"	m	class:Solution	file:
+result	57_Insert_Interval/main.cpp	/^	vector<vector<int>> result;$/;"	m	class:Solution	file:
+result	77_Combinations/main.cpp	/^	vector<vector<int>> result;$/;"	m	class:Solution	file:
+result	78_Subsets/main.cpp	/^	vector<vector<int>> result;$/;"	m	class:Solution	file:
+ret	17_letter_combinations_of_a_phone_number/main.cpp	/^	vector <string> ret;$/;"	m	class:Solution	file:
+ret_s	5_longest_palindromic_substring/5_longest_palindromic_substring.cpp	/^  string ret_s;$/;"	m	class:Solution	file:
+reverse	7_reverse_integet/main.cpp	/^    int reverse(int x) {$/;"	f	class:Solution
+reverseKGroup	25_Reverse_Nodes_in_k_Group/main.cpp	/^    ListNode* reverseKGroup(ListNode* head, int k) {$/;"	f	class:Solution
+romanToInt	13_roman_to_integer/main.cpp	/^    int romanToInt(string s) {$/;"	f	class:Solution
+rotateRight	61_Rotate_List/main.cpp	/^		ListNode* rotateRight(ListNode* head, int k)$/;"	f	class:Solution
+s_add	5_longest_palindromic_substring/5_longest_palindromic_substring.cpp	/^  string *s_add = nullptr;$/;"	m	class:Solution	file:
+search	81_Search_in_Rotated_Sorted_Array_II/main.cpp	/^    bool search(vector<int>& nums, int target)$/;"	f	class:Solution
+searchInsert	35_Search_Insert_Position/main.cpp	/^    int searchInsert(vector<int>& nums, int target) {$/;"	f	class:Solution
+searchMatrix	74_Search_a_2D_Matrix/main.cpp	/^    bool searchMatrix(vector<vector<int>>& matrix, int target)$/;"	f	class:Solution
+searchRange	34_Find_First_and_Last_Position_of_Element_in_Sorted_Array/main.cpp	/^    vector<int> searchRange(vector<int>& nums, int target) {$/;"	f	class:Solution
+setZeroes	73_Set_Matrix_Zeroes/main.cpp	/^    void setZeroes(vector<vector<int>>& matrix)$/;"	f	class:Solution
+simplifyPath	71_Simplify_Path/main.cpp	/^    string simplifyPath(string path)$/;"	f	class:Solution
+sortColors	75_Sort_Colors/main.cpp	/^    void sortColors(vector<int>& nums)$/;"	f	class:Solution
+strStr	28_Implement_strStr/main.cpp	/^    int strStr(string haystack, string needle) {$/;"	f	class:Solution
+subsets	78_Subsets/main.cpp	/^    vector<vector<int>> subsets(vector<int>& nums)$/;"	f	class:Solution
+sum	39_Combination_Sum/main.cpp	/^		int sum = 0;$/;"	m	class:Solution	file:
+sum	40_Combination_Sum_II/main.cpp	/^		int sum = 0;$/;"	m	class:Solution	file:
+target	78_Subsets/main.cpp	/^	vector<int> target;$/;"	m	class:Solution	file:
+temp	17_letter_combinations_of_a_phone_number/main.cpp	/^	string temp;$/;"	m	class:Solution	file:
+temp	56_Merge_Intervals/main.cpp	/^	vector<int> temp;$/;"	m	class:Solution	file:
+temp	57_Insert_Interval/main.cpp	/^	vector<int> temp;$/;"	m	class:Solution	file:
+threeSum	15_3sum/main.cpp	/^    vector<vector<int>> threeSum(vector<int>& nums) {$/;"	f	class:Solution
+threeSumClosest	16_3num_closest/main.cpp	/^    int threeSumClosest(vector<int>& nums, int target) {$/;"	f	class:Solution
+twoSum	1_tow_num_add/main.cpp	/^    vector<int> twoSum(vector<int>& nums, int target) {$/;"	f	class:Solution
+uniquePaths	62_Unique_Paths/main.cpp	/^    int uniquePaths(int m, int n)$/;"	f	class:Solution
+uniquePathsWithObstacles	63_Unique_Paths_II/main.cpp	/^    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid)$/;"	f	class:Solution
+val	19_remove_Nth_node_from_end_of_list/main.cpp	/^	int val;$/;"	m	struct:ListNode	file:
+val	21_Merge_Two_Sorted_Lists/main.cpp	/^	int val;$/;"	m	struct:ListNode	file:
+val	23_Merge_k_Sorted_Lists/main.cpp	/^	int val;$/;"	m	class:ListNode	file:
+val	23_Merge_k_Sorted_Lists/main.cpp	/^	int val;$/;"	m	struct:ListNode	file:
+val	23_Merge_k_Sorted_Lists/main.cpp	/^        int val;$/;"	m	struct:Solution::Status	file:
+val	25_Reverse_Nodes_in_k_Group/main.cpp	/^    int val;$/;"	m	struct:ListNode	file:
+val	61_Rotate_List/main.cpp	/^    int val;$/;"	m	struct:ListNode	file:
+val	82_Remove_Duplicates_from_Sorted_List_II/main.cpp	/^    int val;$/;"	m	struct:ListNode	file:
+ycm_core	82_Remove_Duplicates_from_Sorted_List_II/.ycm_extra_conf.py	/^import ycm_core$/;"	i
+~Solution	5_longest_palindromic_substring/5_longest_palindromic_substring.cpp	/^Solution::~Solution() {$/;"	f	class:Solution
